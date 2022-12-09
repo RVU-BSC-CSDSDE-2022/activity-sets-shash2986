@@ -1,9 +1,11 @@
 #include <stdio.h>
 
+
 int input_array_size();
 void input_array(int n, int a[n]);
 int sum_n_array(int n, int a[n]);
 void output(int n, int a[n], int sum);
+
 
 int input_array_size()
 {
@@ -17,6 +19,7 @@ void input_array(int n, int a[n])
 {
   for(int i=0;i<n;i++)
     {
+      printf("enter the element\n");
       scanf("%d", &a[i]);
     }
 }
@@ -49,6 +52,5 @@ int main()
   input_array(n, a);
   sum=sum_n_array(n, a);
   output(n, a,sum);
-  return 0;
+  return 0;
 }
-.
