@@ -1,8 +1,7 @@
 #include<stdio.h>
 void scalene(int a, int b, int c);
 
-int main()
-{
+int main(){
 
 	float a, b, c;
 	
@@ -13,15 +12,11 @@ int main()
 	
 	return 0;
 }
-void scalene(float x, float y, float z);
-{
+void scalene(float x, float y, float z){
 
-	if(x != y && y != z && z != x)
-  {
+	if(x != y && y != z && z != x){
 		printf("The triangle is scalene.\n");
-	} 
-  else
-  {
+	} else {
 		printf("The triangle is not scalene.\n");
 	}
 }

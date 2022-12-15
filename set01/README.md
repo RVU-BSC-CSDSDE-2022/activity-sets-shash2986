@@ -43,7 +43,7 @@ void add(int a, int b, int *sum);
 void output(int a, int b, int sum);
 ```
 
-***Input***
+***Input*
 
 ```
 1
