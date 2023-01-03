@@ -3,7 +3,8 @@ int input();
 int add(int a, int b);
 void output(int a, int b, int sum);
 
-int main(){
+int main()
+{
 	int x, y, sum;
 	x = input();
 	y = input();
@@ -26,5 +27,3 @@ int add(int a, int b){
 void output(int a, int b, int sum){
 	printf("The sum of %d and %d is %d \n", a, b, sum);
 }
-  
-  
