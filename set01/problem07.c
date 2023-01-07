@@ -24,13 +24,15 @@ int sum_n_nos(int n)
 
 void output(int n, int sum)
 {
-  printf("The sum of %d is %d\n", n, sum);
+  printf("The sum of %d natural number is %d\n", n, sum);
 }
 
 int main()
 {
-  int n, sum=0;
+  int n;
   n=input();
+  int sum;
   sum=sum_n_nos(n);
   output(n, sum);
+  return 0;
 }
