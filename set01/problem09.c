@@ -17,7 +17,7 @@ float input()
 {
   double n;
   printf("Enter the number");
-  scanf("%lf, &n");
+  scanf("%lf", &n);
   return n;
 }
 
@@ -29,6 +29,5 @@ float square_root(float n)
 
 void output(float n, float sqrroot)
 {
-  printf("Square root of %2lf = %2lf", n,sqrroot);
+  printf("square root of %2lf = %2lf", n,sqrroot);
 }
-
